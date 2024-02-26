@@ -32,12 +32,14 @@ header {
     justify-content: space-between;
     padding-left: 8%;
     padding-right: 2%;
-    padding-bottom: 5px;
+    padding-bottom: 1%;
     padding-top: 30px;
     width: 100%;
     z-index: 1;    
     position: fixed;
     user-select: none;
+    background-color: transparent;
+    backdrop-filter: blur(3px);
 }
 
 header nav a {
@@ -212,8 +214,8 @@ footer img:hover {
     border-radius: 3px;
 }
 
-
 /*/////////////////////////////////////////////*/
+
 @media screen and (max-width: 770px){
 /*____________________________________________*/
 @keyframes appear{
@@ -253,9 +255,10 @@ section img {
     }
 
     header {
-        margin-top: 15px;
+        padding-top: 8%;
         padding-left: 4%;
         padding-right: 2%;
+        padding-bottom: 5%;
         justify-content: center;
     }
     
@@ -368,7 +371,7 @@ section img {
     }
 
     section img {
-        width: 250px;
+        width: 220px;
         border-radius: 13px;
         margin-bottom: -30px;
     }
@@ -399,10 +402,10 @@ section img {
 
 /*/////////////////////////////////////////////*/
 
-@media screen and (max-width: 410px){
+@media screen and (max-width: 415px){
 
     header nav a {
-        font-size: 15px;
+        font-size: 14px;
         padding: 10px;
         border-radius: 6px;
         margin-right: 10px;
