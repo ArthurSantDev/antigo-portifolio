@@ -1,1 +1,1 @@
-![c_ArthurSant](https://github.com/ArthurSantDev/ArthurSantDev.github.io/assets/159972613/5b7a67e3-2275-4d88-9e3e-d0cd8101c997)
+![ArthurSant](https://github.com/ArthurSantDev/ArthurSantDev.github.io/assets/159972613/c568ae8b-5135-4250-b323-d0d9d5f738d9)
