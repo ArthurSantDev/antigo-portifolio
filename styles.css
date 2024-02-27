@@ -31,8 +31,8 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-left: 8%;
-    padding-right: 2%;
+    padding-left: 4%;
+    padding-right: 3%;
     padding-bottom: 1%;
     padding-top: 30px;
     width: 100%;
@@ -47,8 +47,8 @@ header nav a {
     color: var(--color-2);
     background-color: var(--color-0);
     font-weight: 600;
-    margin-top: 32px;
-    margin-right: 20px;   
+    font-size: 14px;
+    margin-right: 10px;
     padding: 10px;
     border-radius: 7px;
     text-decoration: none;
@@ -59,7 +59,7 @@ header nav a {
 
 nav a::after {
     content:'';    
-    background-color: var(--color-1);
+    background-color: var(--color-white);
     width: 0%;
     height: 4px;    
     bottom: 0;
@@ -69,13 +69,14 @@ nav a::after {
 }
 
 header nav a:hover {
-    color: var(--color-1);
+    color: var(--color-white);
     transition-property: color;
 }
 
 nav a:hover::after {
     width: 100%;
     transition-duration: 0.5s;
+    border-radius: 0 0 5px 5px;
 }
 
 .name {
@@ -99,21 +100,43 @@ nav a:hover::after {
     transition-duration: 0.6s;
 }
 
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 7%;
+}
+
 .perf {
-    display: none;
-    cursor:default;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 45%;
+    margin-top: -10%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 100%;
+    box-shadow: none;
+    cursor: default;
     user-select: none;
 }
 
+.perf:hover{
+    transform: none;
+}
+
 .arroba {
-    display: none;
-    cursor:default;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+    color: var(--color-3);
     user-select: none;
 }
 
 .h1 {
     text-align: center;
-    font-size: 700%;
+    font-size: 600%;
     margin-top: 150px;
     position: relative;
     cursor:default;
@@ -123,7 +146,7 @@ nav a:hover::after {
 
 .h2 {
     text-align: center;
-    font-size: 1000%;
+    font-size: 900%;
     position: relative;
     margin-bottom: 200px;
     cursor:default;
@@ -173,7 +196,7 @@ section img:hover {
 .ex {
     display: flex;
     justify-content: center;
-    margin-bottom: 100px;
+    margin-bottom: 5%;
     cursor:default;
 }
 
@@ -183,13 +206,13 @@ section img:hover {
     text-align: center;
     margin-left: 17%;
     margin-right: 17%;
-    margin-bottom: 100px;
+    margin-bottom: 5%;
     user-select: none;
 }
 
 footer {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     gap: 35px;
     padding: 64px 80px;
     margin: 0 17%;
@@ -216,6 +239,21 @@ footer img:hover {
 }
 
 /*/////////////////////////////////////////////*/
+
+@media screen and (max-width: 1100px){
+    .perf {
+        display: none;
+    }
+
+    .arroba {
+        display: none;
+    }
+
+    .container{
+        margin-right: 0%;
+    }
+
+}
 
 @media screen and (max-width: 750px){
 
@@ -282,22 +320,18 @@ section img {
         background-color: var(--color-white);
     }
 
+    .container{
+        display: contents;
+    }
+
     .perf {
         display: flex;
-        justify-content: center;
-        align-items: center;
         width: 45%;
         margin-top: 30%;
-        margin-left: auto;
-        margin-right: auto;
-        border-radius: 100%;
-        box-shadow: none;
     }
 
     .arroba {
         display: flex;
-        justify-content: center;
-        align-items: center;
         margin-top: 10%;
     }
 
@@ -339,7 +373,7 @@ section img {
     }
 
     footer {
-        justify-content: center;
+        justify-content: space-around;
     }
 
     footer img {
