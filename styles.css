@@ -41,6 +41,7 @@ header {
     user-select: none;
     background-color: transparent;
     backdrop-filter: blur(3px);
+    z-index: 1;
 }
 
 header nav a {
@@ -219,7 +220,7 @@ footer {
 }
 
 footer img {
-    width: 80px;
+    width: 60px;
     transition-duration: 0.8s;
 }
 
