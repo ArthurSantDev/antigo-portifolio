@@ -165,7 +165,7 @@ nav a:hover::after {
 .sobre {
     color: var(--color-transparent);  
     font-size: 5px;
-    margin-bottom: 90px;
+    margin-bottom: 75px;
     text-decoration: none;
     cursor: default;
     user-select: none;   
@@ -178,7 +178,7 @@ nav a:hover::after {
     text-align: center;
     margin-left: 17%;
     margin-right: 17%;
-    margin-bottom: 60px;
+    margin-bottom: 40px;
     user-select: none;
 }
 
@@ -197,7 +197,7 @@ section img:hover {
 .ex {
     display: flex;
     justify-content: center;
-    margin-bottom: 5%;
+    margin-bottom: 40px;
     cursor:default;
 }
 
@@ -253,7 +253,7 @@ footer img:hover {
 .logos {
     overflow: hidden;
     padding: 10px 0px;
-    margin: 7% 20% 0% 20%;
+    margin: 3% 10% 0% 10%;
     border-radius: 12px;
     white-space: nowrap;
     user-select: none;
@@ -261,38 +261,15 @@ footer img:hover {
     background-image: linear-gradient(to right, #ffffff00, #ffffff00);
 }
 
-.logos:before,
-.logos:after {
-    position: absolute;
-    top: 0%;
-    width: 70px;
-    height: 100%;
-    content: "";
-    z-index: 2;
-}
-
-.logos:before {
-    left: 0%;
-    background: linear-gradient(to right, #ffffff00, #ffffff00);
-}
-
-.logos:after {
-    right: 0%;
-    background: linear-gradient(to left, #ffffff00, #ffffff00);
-}
-
 .logos-slide {
     display: inline-block;
-    animation: slide 25s infinite linear;
+    animation: slide 30s infinite linear;
 }
 
 .logos-slide img {
     width: 40px;
     margin: 0px 10px;
-}
-
-.logos:hover .logos-slide {
-    animation-play-state: paused;
+    border-radius: 0px;
 }
 
 /*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
@@ -444,11 +421,7 @@ section img {
     }
 
     .logos {
-        margin: 20% 10% 0 10%;
-    }
-
-    .logos-slide {
-        animation: slide 30s infinite linear;
+        margin: 10% 5% 0 5%;
     }
 
 }
