@@ -253,7 +253,7 @@ footer img:hover {
 .logos {
     overflow: hidden;
     padding: 10px 0px;
-    margin: 3% 10% 0% 10%;
+    margin: 3% 7% 0% 7%;
     border-radius: 12px;
     white-space: nowrap;
     user-select: none;
@@ -269,7 +269,7 @@ footer img:hover {
 .logos-slide img {
     width: 40px;
     margin: 0px 10px;
-    border-radius: 0px;
+    border-radius: 5px;
 }
 
 /*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
