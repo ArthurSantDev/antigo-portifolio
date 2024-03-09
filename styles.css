@@ -429,6 +429,10 @@ section img {
     .logos {
         margin: 8% 5% 0 5%;
     }
+   
+   .logos-slide {
+    animation: slide 35s infinite linear;
+    }
 
 }
 
