@@ -101,6 +101,51 @@ nav a:hover::after {
     transition-duration: 0.6s;
 }
 
+
+
+
+
+.logos {
+    overflow: hidden;
+    padding: 10px 0px;
+    margin: 5% 7% 0% 7%;
+    border-radius: 12px;
+    white-space: nowrap;
+    user-select: none;
+    position: relative;
+    background-image: linear-gradient(to right, #ffffff00, #ffffff00);
+}
+
+.logos-slide {
+    display: inline-block;
+    animation: slide 30s infinite linear;
+}
+
+.logos-slide img {
+    width: 40px;
+    margin: 0px 10px;
+    border-radius: 5px;
+}
+
+@media screen and (max-width: 1100px){
+    .perf {
+        display: none;
+    }
+
+    .arroba {
+        display: none;
+    }
+
+    .container{
+        margin-right: 0%;
+    }
+
+}
+
+
+
+
+
 .container{
     display: flex;
     justify-content: center;
@@ -120,10 +165,6 @@ nav a:hover::after {
     box-shadow: none;
     cursor: default;
     user-select: none;
-}
-
-.profile:hover{
-    transform: none;
 }
 
 .arroba {
@@ -239,7 +280,7 @@ footer img:hover {
     border-radius: 3px;
 }
 
-/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
 
 
 
@@ -252,47 +293,9 @@ footer img:hover {
     }
 }
 
-.logos {
-    overflow: hidden;
-    padding: 10px 0px;
-    margin: 5% 7% 0% 7%;
-    border-radius: 12px;
-    white-space: nowrap;
-    user-select: none;
-    position: relative;
-    background-image: linear-gradient(to right, #ffffff00, #ffffff00);
-}
-
-.logos-slide {
-    display: inline-block;
-    animation: slide 30s infinite linear;
-}
-
-.logos-slide img {
-    width: 40px;
-    margin: 0px 10px;
-    border-radius: 5px;
-}
 
 
-
-/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
-/*____________________________________________*/
-
-@media screen and (max-width: 1100px){
-    .perf {
-        display: none;
-    }
-
-    .arroba {
-        display: none;
-    }
-
-    .container{
-        margin-right: 0%;
-    }
-
-}
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
 
 @media screen and (max-width: 750px){
 @keyframes appear{
@@ -361,7 +364,7 @@ section img {
     .profile {
         display: flex;
         width: 45%;
-        margin-top: 15%;
+        margin-top: 10%;
     }
 
     .arroba {
