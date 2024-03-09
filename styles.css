@@ -241,6 +241,8 @@ footer img:hover {
 
 /*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
 
+
+
 @keyframes slide {
     from{
         transform: translateX(0);
@@ -271,6 +273,8 @@ footer img:hover {
     margin: 0px 10px;
     border-radius: 5px;
 }
+
+
 
 /*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
 /*____________________________________________*/
@@ -416,6 +420,10 @@ section img {
 
     footer img:hover {
         transform: rotate(0deg);
+    }
+
+    .logos-slide {
+        animation: slide 35s infinite linear;
     }
 
     .logos {
